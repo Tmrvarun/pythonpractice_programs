@@ -24,4 +24,4 @@
 #
 # Static: Methods defined by keyword @staticmethod.These are called by class name itself. A static method is a method
 # that does not require any object to call it, but it is used to call class method implicitly
-# the disdvantge of using ststic method is that , it can not be overloaded or overrided under polymorphism
+# the disadvantage of using static method is that , it can not be overloaded or overrided under polymorphism.
