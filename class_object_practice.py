@@ -30,7 +30,7 @@ class name:
 
 nm=name()
 nm.text()
-name.text1("Varun","Tomar")
+name.text1("Varun","Tomar") #THIS code still gives output as Varun Tomar even if above two lines are commented out , due to static method, unlike method text
 
 
 # Global and local variable with different names
