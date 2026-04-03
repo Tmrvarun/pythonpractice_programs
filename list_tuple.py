@@ -12,7 +12,7 @@
 # for i in mylist:
 #     print(i) #prints all elements
 
-#adding items in list
+#adding items in list: append() , insert ()
 
 # mylist=['apple','banana','cherry','grapes','mango']
 # mylist.append('Guava')
@@ -22,7 +22,7 @@
 # mylist.insert(1,'Litchi')
 # print(mylist) #adds litchi to index no. 1 ,['apple', 'Litchi', 'banana', 'cherry']
 
-#Removing items from list
+#Removing items from list: pop(), remove()
 
 # mylist=['apple','banana','cherry']
 # mylist.pop(2)
