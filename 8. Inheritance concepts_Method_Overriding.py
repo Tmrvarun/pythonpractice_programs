@@ -99,7 +99,7 @@
 # cobj.m1()
 # cobj.m2()
 
-# 5) Overriding : in this we can have same name of methods and can override it , we can override the method name by super() keyword
+# 5) Overriding : This is achieved when we have same method names in two classes and after inhertinace we call the method , we can override the method name by super() keyword
 
 class A():
     def m1(self):
@@ -111,7 +111,7 @@ class B(A):
        super().m1()
 
 bobj=B()
-bobj.m1()
+bobj.m1()# Method names are same here , if there was no method present in class b then parent class method would have been called , if class b has same method name then , the method in class b woud override class a method
 # #            Output:
 #           #This is class from child ,without any super() keyword it prints the latest method value
 #           O/P # This is class from child, as print statement falls before super() keyword
