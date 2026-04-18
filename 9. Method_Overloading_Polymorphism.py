@@ -5,12 +5,17 @@
 
 
 # class name():
-#     def prt(self,name=None):
+#     def prt(self,name=None): # Here self will take object as an argument and pass it to this method, eg: whille assigning a=6, the value is passed to inbuild python method in self
+
 #         if name is not None:
 #             print("Hello " + name)
 #         else:
 #             print("Hello")
 #
+# another way of calling mthod from class is: nobj=name()
+
+# name.prt(nobj) here nobj object is passed as parameter to method prt and stored in self where it is used in the method execution
+
 # nobj=name()
 # # nobj.prt("Jack Smith") #Since we passed value name so if statement gets true and Hello Jack Smith gets printed
 # nobj.prt() # Since name is none then else statement is true so only Hello gets printed
