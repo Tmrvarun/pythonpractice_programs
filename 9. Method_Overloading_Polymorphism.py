@@ -4,6 +4,29 @@
 
 
 
+# overloading concept: Overloading is achieved by none concept , pass none to function paremeters and depending upon paremeters the function gets overloaded
+
+class sum:
+
+
+    def add(self,a=None,b=None,c=None):
+        if a!=None and b!=None and c!=None : # if all three parameter are passed then we use this condition
+            return a+b+c
+        elif a!=None and b!=None: #if c parameter is not passed then this condition is satisfied
+            return a+b
+        else : #if only one parameter is passed 
+            return a
+
+
+
+sm=sum()
+i=sm.add(30,)
+print(i)
+
+
+
+
+
 # class name():
 #     def prt(self,name=None): # Here self will take object as an argument and pass it to this method, eg: whille assigning a=6, the value is passed to inbuild python method in self
 
